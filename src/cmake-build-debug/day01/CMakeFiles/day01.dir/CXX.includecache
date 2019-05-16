@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mac/Documents/GitHub/AlgorithmLearn/day01/Student.cpp
+Student.hpp
+/Users/mac/Documents/GitHub/AlgorithmLearn/day01/Student.hpp
+
+/Users/mac/Documents/GitHub/AlgorithmLearn/day01/Student.hpp
+
+/Users/mac/Documents/GitHub/AlgorithmLearn/day01/main.cpp
+iostream
+-
+Student.hpp
+/Users/mac/Documents/GitHub/AlgorithmLearn/day01/Student.hpp
+
