@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mac/Documents/GitHub/AlgorithmLearn
+CMAKE_SOURCE_DIR = /Users/mac/Documents/GitHub/AlgorithmLearn/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/CMakeFiles /Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day02/CMakeFiles/progress.marks
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 day02/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/CMakeFiles 0
+	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02/CMakeFiles/progress.marks
+	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 day02/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 day02/clean
+	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 day02/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 day02/preinstall
+	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 day02/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 day02/preinstall
+	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 day02/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 day02/CMakeFiles/day02.dir/rule:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 day02/CMakeFiles/day02.dir/rule
+	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 day02/CMakeFiles/day02.dir/rule
 .PHONY : day02/CMakeFiles/day02.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ day02: day02/CMakeFiles/day02.dir/rule
 
 # fast build rule for target.
 day02/fast:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug && $(MAKE) -f day02/CMakeFiles/day02.dir/build.make day02/CMakeFiles/day02.dir/build
+	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f day02/CMakeFiles/day02.dir/build.make day02/CMakeFiles/day02.dir/build
 .PHONY : day02/fast
 
 main.o: main.cpp.o
@@ -131,7 +131,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug && $(MAKE) -f day02/CMakeFiles/day02.dir/build.make day02/CMakeFiles/day02.dir/main.cpp.o
+	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f day02/CMakeFiles/day02.dir/build.make day02/CMakeFiles/day02.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -140,7 +140,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug && $(MAKE) -f day02/CMakeFiles/day02.dir/build.make day02/CMakeFiles/day02.dir/main.cpp.i
+	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f day02/CMakeFiles/day02.dir/build.make day02/CMakeFiles/day02.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug && $(MAKE) -f day02/CMakeFiles/day02.dir/build.make day02/CMakeFiles/day02.dir/main.cpp.s
+	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f day02/CMakeFiles/day02.dir/build.make day02/CMakeFiles/day02.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

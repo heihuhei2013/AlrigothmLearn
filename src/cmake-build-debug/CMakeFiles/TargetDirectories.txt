@@ -1,8 +1,8 @@
-/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day01/CMakeFiles/rebuild_cache.dir
-/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day01/CMakeFiles/edit_cache.dir
-/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day01/CMakeFiles/day01.dir
-/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day02/CMakeFiles/rebuild_cache.dir
-/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day02/CMakeFiles/edit_cache.dir
-/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day02/CMakeFiles/day02.dir
+/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/CMakeFiles/rebuild_cache.dir
+/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/CMakeFiles/edit_cache.dir
+/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/CMakeFiles/day01.dir
+/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02/CMakeFiles/rebuild_cache.dir
+/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02/CMakeFiles/edit_cache.dir
+/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02/CMakeFiles/day02.dir

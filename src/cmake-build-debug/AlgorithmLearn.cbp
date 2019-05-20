@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;CMake Files\day01\;CMake Files\day02\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug"/>
+				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug"/>
+				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug"/>
+				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="day01">
-				<Option output="/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day01/day01" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day01"/>
+				<Option output="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/day01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 day01"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 day01"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="day01/fast">
-				<Option output="/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day01/day01" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day01"/>
+				<Option output="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/day01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,15 +73,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 day01/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 day01/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="day02">
-				<Option output="/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day02/day02" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day02"/>
+				<Option output="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02/day02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -94,15 +94,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day02/Makefile&quot;  VERBOSE=1 day02"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day02/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day02/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02/Makefile&quot;  VERBOSE=1 day02"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="day02/fast">
-				<Option output="/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day02/day02" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day02"/>
+				<Option output="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02/day02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -115,32 +115,32 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day02/Makefile&quot;  VERBOSE=1 day02/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day02/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day02/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02/Makefile&quot;  VERBOSE=1 day02/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/day01/Student.cpp">
+		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/day01/Student.cpp">
 			<Option target="day01"/>
 		</Unit>
-		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/day01/Student.hpp">
+		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/day01/Student.hpp">
 			<Option target="day01"/>
 		</Unit>
-		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/day01/main.cpp">
+		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/day01/main.cpp">
 			<Option target="day01"/>
 		</Unit>
-		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/day02/main.cpp">
+		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/day02/main.cpp">
 			<Option target="day02"/>
 		</Unit>
-		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/CMakeLists.txt">
+		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/day01/CMakeLists.txt">
+		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/day01/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\day01\"/>
 		</Unit>
-		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/day02/CMakeLists.txt">
+		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/day02/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\day02\"/>
 		</Unit>
 	</Project>

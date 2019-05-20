@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mac/Documents/GitHub/AlgorithmLearn
+# Install script for directory: /Users/mac/Documents/GitHub/AlgorithmLearn/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day01/cmake_install.cmake")
+  include("/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/day02/cmake_install.cmake")
+  include("/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/mac/Documents/GitHub/AlgorithmLearn/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

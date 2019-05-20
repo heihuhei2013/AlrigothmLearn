@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mac/Documents/GitHub/AlgorithmLearn/day01
+# Install script for directory: /Users/mac/Documents/GitHub/AlgorithmLearn/src/day01
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
