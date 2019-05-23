@@ -34,12 +34,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/cmake_install.cmake")
+  include("/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

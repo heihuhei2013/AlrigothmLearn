@@ -5,7 +5,7 @@
 		<Option title="day02"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\day01\;CMake Files\day02\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Day01_boost_filesystem\;CMake Files\day02\;CMake Files\Day03\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02"/>
@@ -66,11 +66,14 @@
 		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/day01/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\day01\"/>
+		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/Day01_boost_filesystem/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Day01_boost_filesystem\"/>
 		</Unit>
 		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/day02/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\day02\"/>
+		</Unit>
+		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/Day03/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Day03\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

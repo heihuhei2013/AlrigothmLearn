@@ -5,7 +5,7 @@
 		<Option title="AlgorithmLearn"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\day01\;CMake Files\day02\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Day01_boost_filesystem\;CMake Files\day02\;CMake Files\Day03\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug"/>
@@ -37,13 +37,14 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="day01">
-				<Option output="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/day01" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01"/>
+			<Target title="Day01_boost_filesystem">
+				<Option output="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem/Day01_boost_filesystem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/mac/Documents/GitHub/AlgorithmLearn/src/Dependency/boost_1.70/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
@@ -52,19 +53,20 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 day01"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem/Makefile&quot;  VERBOSE=1 Day01_boost_filesystem"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="day01/fast">
-				<Option output="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/day01" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01"/>
+			<Target title="Day01_boost_filesystem/fast">
+				<Option output="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem/Day01_boost_filesystem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/mac/Documents/GitHub/AlgorithmLearn/src/Dependency/boost_1.70/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
@@ -73,10 +75,10 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 day01/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day01/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem/Makefile&quot;  VERBOSE=1 Day01_boost_filesystem/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="day02">
@@ -121,15 +123,60 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="CaptureVideo">
+				<Option output="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/CaptureVideo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Makefile&quot;  VERBOSE=1 CaptureVideo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CaptureVideo/fast">
+				<Option output="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/CaptureVideo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Makefile&quot;  VERBOSE=1 CaptureVideo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
-		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/day01/Student.cpp">
-			<Option target="day01"/>
+		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/Day01_boost_filesystem/Student.cpp">
+			<Option target="Day01_boost_filesystem"/>
 		</Unit>
-		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/day01/Student.hpp">
-			<Option target="day01"/>
+		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/Day01_boost_filesystem/Student.hpp">
+			<Option target="Day01_boost_filesystem"/>
 		</Unit>
-		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/day01/main.cpp">
-			<Option target="day01"/>
+		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/Day01_boost_filesystem/main.cpp">
+			<Option target="Day01_boost_filesystem"/>
+		</Unit>
+		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/Day03/main.cpp">
+			<Option target="CaptureVideo"/>
 		</Unit>
 		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/day02/main.cpp">
 			<Option target="day02"/>
@@ -137,11 +184,14 @@
 		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/day01/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\day01\"/>
+		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/Day01_boost_filesystem/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Day01_boost_filesystem\"/>
 		</Unit>
 		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/day02/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\day02\"/>
+		</Unit>
+		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/Day03/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Day03\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

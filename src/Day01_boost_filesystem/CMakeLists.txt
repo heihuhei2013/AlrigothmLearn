@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(day01)
+project(Day01_boost_filesystem)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -28,6 +28,6 @@ endif()
 include_directories(${Boost_INCLUDE_DIR})
 link_directories(${Boost_LIBRARY_DIRS})
 
-add_executable(day01 main.cpp Student.cpp Student.hpp)
+add_executable(Day01_boost_filesystem main.cpp Student.cpp Student.hpp)
 
-target_link_libraries(day01 ${Boost_LIBRARIES})
+target_link_libraries(Day01_boost_filesystem ${Boost_LIBRARIES})

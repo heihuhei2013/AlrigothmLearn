@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named day01
+# Target rules for targets named Day01_boost_filesystem
 
 # Build rule for target.
-day01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 day01
-.PHONY : day01
+Day01_boost_filesystem: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Day01_boost_filesystem
+.PHONY : Day01_boost_filesystem
 
 # fast build rule for target.
-day01/fast:
-	$(MAKE) -f day01/CMakeFiles/day01.dir/build.make day01/CMakeFiles/day01.dir/build
-.PHONY : day01/fast
+Day01_boost_filesystem/fast:
+	$(MAKE) -f Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build
+.PHONY : Day01_boost_filesystem/fast
 
 #=============================================================================
 # Target rules for targets named day02
@@ -136,6 +136,19 @@ day02/fast:
 	$(MAKE) -f day02/CMakeFiles/day02.dir/build.make day02/CMakeFiles/day02.dir/build
 .PHONY : day02/fast
 
+#=============================================================================
+# Target rules for targets named CaptureVideo
+
+# Build rule for target.
+CaptureVideo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CaptureVideo
+.PHONY : CaptureVideo
+
+# fast build rule for target.
+CaptureVideo/fast:
+	$(MAKE) -f Day03/CMakeFiles/CaptureVideo.dir/build.make Day03/CMakeFiles/CaptureVideo.dir/build
+.PHONY : CaptureVideo/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -144,8 +157,9 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... day01"
+	@echo "... Day01_boost_filesystem"
 	@echo "... day02"
+	@echo "... CaptureVideo"
 .PHONY : help
 
 

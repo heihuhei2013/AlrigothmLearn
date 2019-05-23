@@ -3,6 +3,9 @@ project(AlgorithmLearn)
 
 set(CMAKE_CXX_STANDARD 14)
 
-ADD_SUBDIRECTORY(day01)
+ADD_SUBDIRECTORY(Day01_boost_filesystem)
 
 ADD_SUBDIRECTORY(day02)
+
+
+ADD_SUBDIRECTORY(Day03)

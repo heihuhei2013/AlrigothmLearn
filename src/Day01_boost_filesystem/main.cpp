@@ -18,6 +18,8 @@ int main()
 
     Student stu;
 
+    
     return 0;
 }
+
 
