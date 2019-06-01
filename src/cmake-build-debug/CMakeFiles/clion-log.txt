@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/mac/Documents/GitHub/AlgorithmLearn/src
+"/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/mac/Documents/GitHub/AlgorithmLearn/src
 -- Boost version: 1.70.0
 -- Found the following Boost libraries:
 --   filesystem

@@ -4,4 +4,4 @@ project(CaptureVideo)
 set(CMAKE_CXX_STANDARD 14)
 
 
-add_executable(CaptureVideo main.cpp)
+add_executable(Day03 main.cpp)

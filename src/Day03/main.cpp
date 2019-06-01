@@ -5,7 +5,7 @@
 
 int main()
 {
-    std::cout << "Hello, World! capture video" << std::endl;
+    std::cout << "Hello, World! Day03" << std::endl;
 
 
     return 0;

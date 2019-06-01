@@ -5,7 +5,7 @@
 		<Option title="day02"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Day01_boost_filesystem\;CMake Files\day02\;CMake Files\Day03\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Day01_boost_filesystem\;CMake Files\day02\;CMake Files\Day03\;CMake Files\PThreadMutexDemo1\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02"/>
@@ -74,6 +74,9 @@
 		</Unit>
 		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/Day03/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Day03\"/>
+		</Unit>
+		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/PThreadMutexDemo1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\PThreadMutexDemo1\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

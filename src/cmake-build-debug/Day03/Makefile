@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-de
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -111,19 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Day03/CMakeFiles/CaptureVideo.dir/rule:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Day03/CMakeFiles/CaptureVideo.dir/rule
-.PHONY : Day03/CMakeFiles/CaptureVideo.dir/rule
+Day03/CMakeFiles/Day03.dir/rule:
+	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Day03/CMakeFiles/Day03.dir/rule
+.PHONY : Day03/CMakeFiles/Day03.dir/rule
 
 # Convenience name for target.
-CaptureVideo: Day03/CMakeFiles/CaptureVideo.dir/rule
+Day03: Day03/CMakeFiles/Day03.dir/rule
 
-.PHONY : CaptureVideo
+.PHONY : Day03
 
 # fast build rule for target.
-CaptureVideo/fast:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f Day03/CMakeFiles/CaptureVideo.dir/build.make Day03/CMakeFiles/CaptureVideo.dir/build
-.PHONY : CaptureVideo/fast
+Day03/fast:
+	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f Day03/CMakeFiles/Day03.dir/build.make Day03/CMakeFiles/Day03.dir/build
+.PHONY : Day03/fast
 
 main.o: main.cpp.o
 
@@ -131,7 +131,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f Day03/CMakeFiles/CaptureVideo.dir/build.make Day03/CMakeFiles/CaptureVideo.dir/main.cpp.o
+	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f Day03/CMakeFiles/Day03.dir/build.make Day03/CMakeFiles/Day03.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -140,7 +140,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f Day03/CMakeFiles/CaptureVideo.dir/build.make Day03/CMakeFiles/CaptureVideo.dir/main.cpp.i
+	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f Day03/CMakeFiles/Day03.dir/build.make Day03/CMakeFiles/Day03.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f Day03/CMakeFiles/CaptureVideo.dir/build.make Day03/CMakeFiles/CaptureVideo.dir/main.cpp.s
+	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f Day03/CMakeFiles/Day03.dir/build.make Day03/CMakeFiles/Day03.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... CaptureVideo"
+	@echo "... Day03"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

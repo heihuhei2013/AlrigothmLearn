@@ -5,7 +5,7 @@
 		<Option title="CaptureVideo"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Day01_boost_filesystem\;CMake Files\day02\;CMake Files\Day03\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Day01_boost_filesystem\;CMake Files\day02\;CMake Files\Day03\;CMake Files\PThreadMutexDemo1\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03"/>
@@ -17,8 +17,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="CaptureVideo">
-				<Option output="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/CaptureVideo" prefix_auto="0" extension_auto="0"/>
+			<Target title="Day03">
+				<Option output="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Day03" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -32,14 +32,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Makefile&quot;  VERBOSE=1 CaptureVideo"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Makefile&quot;  VERBOSE=1 Day03"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="CaptureVideo/fast">
-				<Option output="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/CaptureVideo" prefix_auto="0" extension_auto="0"/>
+			<Target title="Day03/fast">
+				<Option output="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Day03" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -53,7 +53,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Makefile&quot;  VERBOSE=1 CaptureVideo/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Makefile&quot;  VERBOSE=1 Day03/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/Makefile&quot;  VERBOSE=1 clean"/>
@@ -61,7 +61,7 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/Day03/main.cpp">
-			<Option target="CaptureVideo"/>
+			<Option target="Day03"/>
 		</Unit>
 		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
@@ -74,6 +74,9 @@
 		</Unit>
 		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/Day03/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Day03\"/>
+		</Unit>
+		<Unit filename="/Users/mac/Documents/GitHub/AlgorithmLearn/src/PThreadMutexDemo1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\PThreadMutexDemo1\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

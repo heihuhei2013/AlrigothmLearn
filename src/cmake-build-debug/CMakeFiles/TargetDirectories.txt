@@ -8,4 +8,7 @@
 /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/day02/CMakeFiles/day02.dir
 /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/CMakeFiles/rebuild_cache.dir
 /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/CMakeFiles/edit_cache.dir
-/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/CMakeFiles/CaptureVideo.dir
+/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/CMakeFiles/Day03.dir
+/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/PThreadMutexDemo1/CMakeFiles/rebuild_cache.dir
+/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/PThreadMutexDemo1/CMakeFiles/edit_cache.dir
+/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir

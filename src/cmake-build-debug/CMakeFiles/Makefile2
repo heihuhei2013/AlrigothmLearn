@@ -50,10 +50,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -89,7 +89,7 @@ Day01_boost_filesystem/preinstall:
 Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/all:
 	$(MAKE) -f Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/depend
 	$(MAKE) -f Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles --progress-num=3,4,5 "Built target Day01_boost_filesystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Day01_boost_filesystem"
 .PHONY : Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/all
 
 # Include target in all.
@@ -144,7 +144,7 @@ day02/preinstall:
 day02/CMakeFiles/day02.dir/all:
 	$(MAKE) -f day02/CMakeFiles/day02.dir/build.make day02/CMakeFiles/day02.dir/depend
 	$(MAKE) -f day02/CMakeFiles/day02.dir/build.make day02/CMakeFiles/day02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target day02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target day02"
 .PHONY : day02/CMakeFiles/day02.dir/all
 
 # Include target in all.
@@ -178,12 +178,12 @@ clean: day02/CMakeFiles/day02.dir/clean
 # Directory level rules for directory Day03
 
 # Convenience name for "all" pass in the directory.
-Day03/all: Day03/CMakeFiles/CaptureVideo.dir/all
+Day03/all: Day03/CMakeFiles/Day03.dir/all
 
 .PHONY : Day03/all
 
 # Convenience name for "clean" pass in the directory.
-Day03/clean: Day03/CMakeFiles/CaptureVideo.dir/clean
+Day03/clean: Day03/CMakeFiles/Day03.dir/clean
 
 .PHONY : Day03/clean
 
@@ -193,39 +193,94 @@ Day03/preinstall:
 .PHONY : Day03/preinstall
 
 #=============================================================================
-# Target rules for target Day03/CMakeFiles/CaptureVideo.dir
+# Target rules for target Day03/CMakeFiles/Day03.dir
 
 # All Build rule for target.
-Day03/CMakeFiles/CaptureVideo.dir/all:
-	$(MAKE) -f Day03/CMakeFiles/CaptureVideo.dir/build.make Day03/CMakeFiles/CaptureVideo.dir/depend
-	$(MAKE) -f Day03/CMakeFiles/CaptureVideo.dir/build.make Day03/CMakeFiles/CaptureVideo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target CaptureVideo"
-.PHONY : Day03/CMakeFiles/CaptureVideo.dir/all
+Day03/CMakeFiles/Day03.dir/all:
+	$(MAKE) -f Day03/CMakeFiles/Day03.dir/build.make Day03/CMakeFiles/Day03.dir/depend
+	$(MAKE) -f Day03/CMakeFiles/Day03.dir/build.make Day03/CMakeFiles/Day03.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target Day03"
+.PHONY : Day03/CMakeFiles/Day03.dir/all
 
 # Include target in all.
-all: Day03/CMakeFiles/CaptureVideo.dir/all
+all: Day03/CMakeFiles/Day03.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-Day03/CMakeFiles/CaptureVideo.dir/rule: cmake_check_build_system
+Day03/CMakeFiles/Day03.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 Day03/CMakeFiles/CaptureVideo.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 Day03/CMakeFiles/Day03.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles 0
-.PHONY : Day03/CMakeFiles/CaptureVideo.dir/rule
+.PHONY : Day03/CMakeFiles/Day03.dir/rule
 
 # Convenience name for target.
-CaptureVideo: Day03/CMakeFiles/CaptureVideo.dir/rule
+Day03: Day03/CMakeFiles/Day03.dir/rule
 
-.PHONY : CaptureVideo
-
-# clean rule for target.
-Day03/CMakeFiles/CaptureVideo.dir/clean:
-	$(MAKE) -f Day03/CMakeFiles/CaptureVideo.dir/build.make Day03/CMakeFiles/CaptureVideo.dir/clean
-.PHONY : Day03/CMakeFiles/CaptureVideo.dir/clean
+.PHONY : Day03
 
 # clean rule for target.
-clean: Day03/CMakeFiles/CaptureVideo.dir/clean
+Day03/CMakeFiles/Day03.dir/clean:
+	$(MAKE) -f Day03/CMakeFiles/Day03.dir/build.make Day03/CMakeFiles/Day03.dir/clean
+.PHONY : Day03/CMakeFiles/Day03.dir/clean
+
+# clean rule for target.
+clean: Day03/CMakeFiles/Day03.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory PThreadMutexDemo1
+
+# Convenience name for "all" pass in the directory.
+PThreadMutexDemo1/all: PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/all
+
+.PHONY : PThreadMutexDemo1/all
+
+# Convenience name for "clean" pass in the directory.
+PThreadMutexDemo1/clean: PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/clean
+
+.PHONY : PThreadMutexDemo1/clean
+
+# Convenience name for "preinstall" pass in the directory.
+PThreadMutexDemo1/preinstall:
+
+.PHONY : PThreadMutexDemo1/preinstall
+
+#=============================================================================
+# Target rules for target PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir
+
+# All Build rule for target.
+PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/all:
+	$(MAKE) -f PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/build.make PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/depend
+	$(MAKE) -f PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/build.make PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target PThreadMutexDemo1"
+.PHONY : PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/all
+
+# Include target in all.
+all: PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles 0
+.PHONY : PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/rule
+
+# Convenience name for target.
+PThreadMutexDemo1: PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/rule
+
+.PHONY : PThreadMutexDemo1
+
+# clean rule for target.
+PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/clean:
+	$(MAKE) -f PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/build.make PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/clean
+.PHONY : PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/clean
+
+# clean rule for target.
+clean: PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/clean
 
 .PHONY : clean
 

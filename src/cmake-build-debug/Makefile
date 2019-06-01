@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-de
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -137,17 +137,30 @@ day02/fast:
 .PHONY : day02/fast
 
 #=============================================================================
-# Target rules for targets named CaptureVideo
+# Target rules for targets named Day03
 
 # Build rule for target.
-CaptureVideo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CaptureVideo
-.PHONY : CaptureVideo
+Day03: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Day03
+.PHONY : Day03
 
 # fast build rule for target.
-CaptureVideo/fast:
-	$(MAKE) -f Day03/CMakeFiles/CaptureVideo.dir/build.make Day03/CMakeFiles/CaptureVideo.dir/build
-.PHONY : CaptureVideo/fast
+Day03/fast:
+	$(MAKE) -f Day03/CMakeFiles/Day03.dir/build.make Day03/CMakeFiles/Day03.dir/build
+.PHONY : Day03/fast
+
+#=============================================================================
+# Target rules for targets named PThreadMutexDemo1
+
+# Build rule for target.
+PThreadMutexDemo1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PThreadMutexDemo1
+.PHONY : PThreadMutexDemo1
+
+# fast build rule for target.
+PThreadMutexDemo1/fast:
+	$(MAKE) -f PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/build.make PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/build
+.PHONY : PThreadMutexDemo1/fast
 
 # Help Target
 help:
@@ -159,7 +172,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... Day01_boost_filesystem"
 	@echo "... day02"
-	@echo "... CaptureVideo"
+	@echo "... Day03"
+	@echo "... PThreadMutexDemo1"
 .PHONY : help
 
 
