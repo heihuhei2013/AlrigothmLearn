@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mac/Documents/GitHub/AlgorithmLearn/src
+CMAKE_SOURCE_DIR = /Users/mac/Documents/GitHub/AlrigothmLearn/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/depend.make
@@ -59,16 +59,16 @@ include PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/flags.make
 
 PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/main.cc.o: PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/flags.make
 PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/main.cc.o: ../PThreadMutexDemo1/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/main.cc.o"
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/PThreadMutexDemo1 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PThreadMutexDemo1.dir/main.cc.o -c /Users/mac/Documents/GitHub/AlgorithmLearn/src/PThreadMutexDemo1/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/main.cc.o"
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/PThreadMutexDemo1 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PThreadMutexDemo1.dir/main.cc.o -c /Users/mac/Documents/GitHub/AlrigothmLearn/src/PThreadMutexDemo1/main.cc
 
 PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PThreadMutexDemo1.dir/main.cc.i"
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/PThreadMutexDemo1 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Documents/GitHub/AlgorithmLearn/src/PThreadMutexDemo1/main.cc > CMakeFiles/PThreadMutexDemo1.dir/main.cc.i
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/PThreadMutexDemo1 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Documents/GitHub/AlrigothmLearn/src/PThreadMutexDemo1/main.cc > CMakeFiles/PThreadMutexDemo1.dir/main.cc.i
 
 PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PThreadMutexDemo1.dir/main.cc.s"
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/PThreadMutexDemo1 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Documents/GitHub/AlgorithmLearn/src/PThreadMutexDemo1/main.cc -o CMakeFiles/PThreadMutexDemo1.dir/main.cc.s
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/PThreadMutexDemo1 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Documents/GitHub/AlrigothmLearn/src/PThreadMutexDemo1/main.cc -o CMakeFiles/PThreadMutexDemo1.dir/main.cc.s
 
 # Object files for target PThreadMutexDemo1
 PThreadMutexDemo1_OBJECTS = \
@@ -80,8 +80,8 @@ PThreadMutexDemo1_EXTERNAL_OBJECTS =
 PThreadMutexDemo1/PThreadMutexDemo1: PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/main.cc.o
 PThreadMutexDemo1/PThreadMutexDemo1: PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/build.make
 PThreadMutexDemo1/PThreadMutexDemo1: PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable PThreadMutexDemo1"
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/PThreadMutexDemo1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PThreadMutexDemo1.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable PThreadMutexDemo1"
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/PThreadMutexDemo1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PThreadMutexDemo1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/build: PThreadMutexDemo1/PThreadMutexDemo1
@@ -89,10 +89,10 @@ PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/build: PThreadMutexDemo1/PThr
 .PHONY : PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/build
 
 PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/clean:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/PThreadMutexDemo1 && $(CMAKE_COMMAND) -P CMakeFiles/PThreadMutexDemo1.dir/cmake_clean.cmake
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/PThreadMutexDemo1 && $(CMAKE_COMMAND) -P CMakeFiles/PThreadMutexDemo1.dir/cmake_clean.cmake
 .PHONY : PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/clean
 
 PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/depend:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mac/Documents/GitHub/AlgorithmLearn/src /Users/mac/Documents/GitHub/AlgorithmLearn/src/PThreadMutexDemo1 /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/PThreadMutexDemo1 /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mac/Documents/GitHub/AlrigothmLearn/src /Users/mac/Documents/GitHub/AlrigothmLearn/src/PThreadMutexDemo1 /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/PThreadMutexDemo1 /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/depend
 

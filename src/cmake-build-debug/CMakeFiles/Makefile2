@@ -50,19 +50,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mac/Documents/GitHub/AlgorithmLearn/src
+CMAKE_SOURCE_DIR = /Users/mac/Documents/GitHub/AlrigothmLearn/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for directory Day01_boost_filesystem
@@ -89,7 +89,7 @@ Day01_boost_filesystem/preinstall:
 Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/all:
 	$(MAKE) -f Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/depend
 	$(MAKE) -f Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Day01_boost_filesystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Day01_boost_filesystem"
 .PHONY : Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/all
 
 # Include target in all.
@@ -99,9 +99,9 @@ all: Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/all
 
 # Build rule for subdir invocation for target.
 Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/CMakeFiles 0
 .PHONY : Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/rule
 
 # Convenience name for target.
@@ -144,7 +144,7 @@ day02/preinstall:
 day02/CMakeFiles/day02.dir/all:
 	$(MAKE) -f day02/CMakeFiles/day02.dir/build.make day02/CMakeFiles/day02.dir/depend
 	$(MAKE) -f day02/CMakeFiles/day02.dir/build.make day02/CMakeFiles/day02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target day02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target day02"
 .PHONY : day02/CMakeFiles/day02.dir/all
 
 # Include target in all.
@@ -154,9 +154,9 @@ all: day02/CMakeFiles/day02.dir/all
 
 # Build rule for subdir invocation for target.
 day02/CMakeFiles/day02.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 day02/CMakeFiles/day02.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/CMakeFiles 0
 .PHONY : day02/CMakeFiles/day02.dir/rule
 
 # Convenience name for target.
@@ -199,7 +199,7 @@ Day03/preinstall:
 Day03/CMakeFiles/Day03.dir/all:
 	$(MAKE) -f Day03/CMakeFiles/Day03.dir/build.make Day03/CMakeFiles/Day03.dir/depend
 	$(MAKE) -f Day03/CMakeFiles/Day03.dir/build.make Day03/CMakeFiles/Day03.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target Day03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target Day03"
 .PHONY : Day03/CMakeFiles/Day03.dir/all
 
 # Include target in all.
@@ -209,9 +209,9 @@ all: Day03/CMakeFiles/Day03.dir/all
 
 # Build rule for subdir invocation for target.
 Day03/CMakeFiles/Day03.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 Day03/CMakeFiles/Day03.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/CMakeFiles 0
 .PHONY : Day03/CMakeFiles/Day03.dir/rule
 
 # Convenience name for target.
@@ -254,7 +254,7 @@ PThreadMutexDemo1/preinstall:
 PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/all:
 	$(MAKE) -f PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/build.make PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/depend
 	$(MAKE) -f PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/build.make PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target PThreadMutexDemo1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target PThreadMutexDemo1"
 .PHONY : PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/all
 
 # Include target in all.
@@ -264,9 +264,9 @@ all: PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/all
 
 # Build rule for subdir invocation for target.
 PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/CMakeFiles 0
 .PHONY : PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/rule
 
 # Convenience name for target.

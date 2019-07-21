@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mac/Documents/GitHub/AlgorithmLearn/src/PThreadMutexDemo1/main.cc" "/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/main.cc.o"
+  "/Users/mac/Documents/GitHub/AlrigothmLearn/src/PThreadMutexDemo1/main.cc" "/Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/PThreadMutexDemo1/CMakeFiles/PThreadMutexDemo1.dir/main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

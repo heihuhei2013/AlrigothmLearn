@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mac/Documents/GitHub/AlgorithmLearn/src
+CMAKE_SOURCE_DIR = /Users/mac/Documents/GitHub/AlrigothmLearn/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/depend.make
@@ -59,29 +59,29 @@ include Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/flags.make
 
 Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/main.cpp.o: Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/flags.make
 Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/main.cpp.o: ../Day01_boost_filesystem/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/main.cpp.o"
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Day01_boost_filesystem.dir/main.cpp.o -c /Users/mac/Documents/GitHub/AlgorithmLearn/src/Day01_boost_filesystem/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/main.cpp.o"
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/Day01_boost_filesystem && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Day01_boost_filesystem.dir/main.cpp.o -c /Users/mac/Documents/GitHub/AlrigothmLearn/src/Day01_boost_filesystem/main.cpp
 
 Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Day01_boost_filesystem.dir/main.cpp.i"
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Documents/GitHub/AlgorithmLearn/src/Day01_boost_filesystem/main.cpp > CMakeFiles/Day01_boost_filesystem.dir/main.cpp.i
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/Day01_boost_filesystem && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Documents/GitHub/AlrigothmLearn/src/Day01_boost_filesystem/main.cpp > CMakeFiles/Day01_boost_filesystem.dir/main.cpp.i
 
 Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Day01_boost_filesystem.dir/main.cpp.s"
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Documents/GitHub/AlgorithmLearn/src/Day01_boost_filesystem/main.cpp -o CMakeFiles/Day01_boost_filesystem.dir/main.cpp.s
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/Day01_boost_filesystem && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Documents/GitHub/AlrigothmLearn/src/Day01_boost_filesystem/main.cpp -o CMakeFiles/Day01_boost_filesystem.dir/main.cpp.s
 
 Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.o: Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/flags.make
 Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.o: ../Day01_boost_filesystem/Student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.o"
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.o -c /Users/mac/Documents/GitHub/AlgorithmLearn/src/Day01_boost_filesystem/Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.o"
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/Day01_boost_filesystem && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.o -c /Users/mac/Documents/GitHub/AlrigothmLearn/src/Day01_boost_filesystem/Student.cpp
 
 Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.i"
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Documents/GitHub/AlgorithmLearn/src/Day01_boost_filesystem/Student.cpp > CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.i
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/Day01_boost_filesystem && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Documents/GitHub/AlrigothmLearn/src/Day01_boost_filesystem/Student.cpp > CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.i
 
 Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.s"
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Documents/GitHub/AlgorithmLearn/src/Day01_boost_filesystem/Student.cpp -o CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.s
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/Day01_boost_filesystem && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Documents/GitHub/AlrigothmLearn/src/Day01_boost_filesystem/Student.cpp -o CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.s
 
 # Object files for target Day01_boost_filesystem
 Day01_boost_filesystem_OBJECTS = \
@@ -96,8 +96,8 @@ Day01_boost_filesystem/Day01_boost_filesystem: Day01_boost_filesystem/CMakeFiles
 Day01_boost_filesystem/Day01_boost_filesystem: Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make
 Day01_boost_filesystem/Day01_boost_filesystem: ../Dependency/boost_1.70/lib/libboost_filesystem.dylib
 Day01_boost_filesystem/Day01_boost_filesystem: Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Day01_boost_filesystem"
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Day01_boost_filesystem.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Day01_boost_filesystem"
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/Day01_boost_filesystem && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Day01_boost_filesystem.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build: Day01_boost_filesystem/Day01_boost_filesystem
@@ -105,10 +105,10 @@ Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build: Day01_boost_
 .PHONY : Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build
 
 Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/clean:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem && $(CMAKE_COMMAND) -P CMakeFiles/Day01_boost_filesystem.dir/cmake_clean.cmake
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/Day01_boost_filesystem && $(CMAKE_COMMAND) -P CMakeFiles/Day01_boost_filesystem.dir/cmake_clean.cmake
 .PHONY : Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/clean
 
 Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/depend:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mac/Documents/GitHub/AlgorithmLearn/src /Users/mac/Documents/GitHub/AlgorithmLearn/src/Day01_boost_filesystem /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mac/Documents/GitHub/AlrigothmLearn/src /Users/mac/Documents/GitHub/AlrigothmLearn/src/Day01_boost_filesystem /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/Day01_boost_filesystem /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/depend
 

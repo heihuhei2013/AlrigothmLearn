@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mac/Documents/GitHub/AlgorithmLearn/src/Day03/main.cpp" "/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day03/CMakeFiles/Day03.dir/main.cpp.o"
+  "/Users/mac/Documents/GitHub/AlrigothmLearn/src/Day03/main.cpp" "/Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/Day03/CMakeFiles/Day03.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

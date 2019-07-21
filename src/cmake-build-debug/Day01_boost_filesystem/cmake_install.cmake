@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mac/Documents/GitHub/AlgorithmLearn/src/Day01_boost_filesystem
+# Install script for directory: /Users/mac/Documents/GitHub/AlrigothmLearn/src/Day01_boost_filesystem
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

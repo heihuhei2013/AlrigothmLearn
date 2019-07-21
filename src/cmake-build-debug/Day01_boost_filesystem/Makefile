@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = "/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mac/Documents/GitHub/AlgorithmLearn/src
+CMAKE_SOURCE_DIR = /Users/mac/Documents/GitHub/AlrigothmLearn/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-de
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/mac/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem/CMakeFiles/progress.marks
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Day01_boost_filesystem/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/CMakeFiles 0
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/CMakeFiles /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/Day01_boost_filesystem/CMakeFiles/progress.marks
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Day01_boost_filesystem/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Day01_boost_filesystem/clean
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Day01_boost_filesystem/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Day01_boost_filesystem/preinstall
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Day01_boost_filesystem/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Day01_boost_filesystem/preinstall
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Day01_boost_filesystem/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/rule:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/rule
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/rule
 .PHONY : Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ Day01_boost_filesystem: Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem
 
 # fast build rule for target.
 Day01_boost_filesystem/fast:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug && $(MAKE) -f Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build
 .PHONY : Day01_boost_filesystem/fast
 
 Student.o: Student.cpp.o
@@ -131,7 +131,7 @@ Student.o: Student.cpp.o
 
 # target to build an object file
 Student.cpp.o:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.o
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug && $(MAKE) -f Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.o
 .PHONY : Student.cpp.o
 
 Student.i: Student.cpp.i
@@ -140,7 +140,7 @@ Student.i: Student.cpp.i
 
 # target to preprocess a source file
 Student.cpp.i:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.i
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug && $(MAKE) -f Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.i
 .PHONY : Student.cpp.i
 
 Student.s: Student.cpp.s
@@ -149,7 +149,7 @@ Student.s: Student.cpp.s
 
 # target to generate assembly for a file
 Student.cpp.s:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.s
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug && $(MAKE) -f Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.s
 .PHONY : Student.cpp.s
 
 main.o: main.cpp.o
@@ -158,7 +158,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/main.cpp.o
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug && $(MAKE) -f Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -167,7 +167,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/main.cpp.i
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug && $(MAKE) -f Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -176,7 +176,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(MAKE) -f Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/main.cpp.s
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug && $(MAKE) -f Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/build.make Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -11,5 +11,9 @@ int main()
     pthread_mutex_init(&mutex,NULL);
 
 
+
+    std::cout << "Hello, World! Bye" << std::endl;
+
+
     return 0;
 }

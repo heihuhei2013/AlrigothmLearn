@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/Ma
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/mac/Documents/GitHub/AlgorithmLearn/src/Dependency/boost_1.70/include 
+CXX_INCLUDES = -I/Users/mac/Documents/GitHub/AlrigothmLearn/src/Dependency/boost_1.70/include 
 

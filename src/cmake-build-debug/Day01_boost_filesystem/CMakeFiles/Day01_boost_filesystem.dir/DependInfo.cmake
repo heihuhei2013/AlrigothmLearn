@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mac/Documents/GitHub/AlgorithmLearn/src/Day01_boost_filesystem/Student.cpp" "/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.o"
-  "/Users/mac/Documents/GitHub/AlgorithmLearn/src/Day01_boost_filesystem/main.cpp" "/Users/mac/Documents/GitHub/AlgorithmLearn/src/cmake-build-debug/Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/main.cpp.o"
+  "/Users/mac/Documents/GitHub/AlrigothmLearn/src/Day01_boost_filesystem/Student.cpp" "/Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/Student.cpp.o"
+  "/Users/mac/Documents/GitHub/AlrigothmLearn/src/Day01_boost_filesystem/main.cpp" "/Users/mac/Documents/GitHub/AlrigothmLearn/src/cmake-build-debug/Day01_boost_filesystem/CMakeFiles/Day01_boost_filesystem.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

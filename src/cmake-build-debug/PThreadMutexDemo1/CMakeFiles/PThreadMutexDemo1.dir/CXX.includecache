@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/mac/Documents/GitHub/AlgorithmLearn/src/PThreadMutexDemo1/main.cc
+/Users/mac/Documents/GitHub/AlrigothmLearn/src/PThreadMutexDemo1/main.cc
 iostream
 -
 pthread.h
