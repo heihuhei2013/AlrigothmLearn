@@ -1,28 +1,75 @@
 //
-// Created by huhu on 2022/3/2.
+// Created by mac on 2020/4/23.
 //
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+
+class Person {
+
+private:
+    string *_name;
+
+public:
+    Person() : _name(new string("")) {
+        std::cout << "Person()" << std::endl;
+    }
+
+    virtual ~Person() {
+        if (this->_name) {
+            delete _name;
+        }
+
+        std::cout << "~Person()" << std::endl;
+    }
+
+};
+
+int main() {
+    std::cout << "c++引用: Hello, World!" << std::endl;
+
+    //1
+    int a = 10;
+    int &ra = a;
+
+    int b = ra;
+
+    ra = 20;
+
+    //2
+    Person *p1 = new Person();
+    Person &rp = *p1;
+
+    Person &rp2 = *p1;
+
+    delete p1;
+
+    std::cout << "c++引用: end!" << std::endl;
+
+}
+
+求一个字符串的最长回文子串
+
+        详细描述
+
+输入一个字符串，求该字符串的最长的回文子串
+
+        输入输出描述
+
+输入描述
+
+        abcbuu
+
+输出描述
+
+        abcbuu有两个回文子串，分别为bcb和uu，输出最长的回文子串即为bcb
+
 
 #include <iostream>
 #include <vector>
 
-/*
- * 求一个字符串的最长回文子串(前后顺序都是一样的 比如 aba  左右对称)
-
-详细描述
-
-输入一个字符串，求该字符串的最长的回文子串
-
-输入输出描述
-
-输入描述
-
-abcbuu
-
-输出描述
-
-abcbuu有两个回文子串，分别为bcb和uu，输出最长的回文子串即为bcb
-
- */
 
 void DebugStrings(int index1,int index2,std::vector<char> &strings)
 {
@@ -36,25 +83,10 @@ void DebugStrings(int index1,int index2,std::vector<char> &strings)
 
 bool isHunWenString(int index1,int index2,std::vector<char> &strings)
 {
-    int tmpIndex1 = index1;
-    int tempIndex2 = index2;
-
-    bool  isHunwen = true;
+    bool
     while(1){
-        if (tmpIndex1 > tempIndex2){
-            break;
-        }
-        char c1 = strings[tmpIndex1];
-        char c2 = strings[tempIndex2];
-        if (c1 == c2) {
-            tmpIndex1 ++;
-            tempIndex2 --;
-        } else {
-            isHunwen = false;
-            break;
-        }
+
     }
-    return isHunwen;
 }
 
 int main()
@@ -87,11 +119,11 @@ int main()
     {
         char c1 = strings.at(i);
 
-        for (int j = strings.size() - 1;j > i;j--)
+        for (int j = strings.size() - 1;j >= 0;j--)
         {
             if (i < j) {
                 char c2 = strings.at(j);
-                if ( (c1 == c2) && isHunWenString(i,j,strings)) {
+                if (c1 == c2) {
                     // DebugStrings(i,j,strings);
                     if ( (j - i) > maxLenght) {
                         maxLenght = (j-i);
@@ -103,7 +135,7 @@ int main()
         }
     }
 
-    DebugStrings(resultIndex1,resultIndex2, strings);
+    DebugStrings(resultIndex1,resultIndex2,strings);
 
     return 0;
 }
