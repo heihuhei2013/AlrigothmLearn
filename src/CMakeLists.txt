@@ -28,3 +28,5 @@ ADD_SUBDIRECTORY(c++Operator)
 ADD_SUBDIRECTORY(c++仿函数Functor)
 
 ADD_SUBDIRECTORY(c++_STL/container)
+
+ADD_SUBDIRECTORY(modernC++)
